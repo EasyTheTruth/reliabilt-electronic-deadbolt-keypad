@@ -1,0 +1,4 @@
+This is the RX of a serial to usb converter on the TX line on the keypad board. Assuming responses from the Keypad.
+
+If a number key is pressed: 005A01, 005A02, 005A03, 005A04, 005A05, 005A06, 005A07, 005A08, 005A09, 005A00
+Unlock/lock button: 005A0A
