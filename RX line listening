@@ -1,8 +1,8 @@
 This is the RX of a serial to usb converter on the RX line on the keypad board. Assuming responses from the main lock board.
 
-If a number key is pressed: 00A5F1
-If the correct code is entered after pressing the unlock/lock button: 00A5F2
-Timeout, key pressed but the unlock/lock button was not pressed: 00A5F3
-Incorrect code entered: 00A5F4
+If a number key is pressed(Single Green Flash): 00A5F1
+If the correct code is entered after pressing the unlock/lock button(Single Green Flash): 00A5F2
+Timeout, key pressed but the unlock/lock button was not pressed(Triple Red Flash): 00A5F3
+Incorrect code entered(Triple Red Flash): 00A5F4
 
-Programming code entered: 00A5F7
+Programming code entered(Slow Orange Flash): 00A5F7
